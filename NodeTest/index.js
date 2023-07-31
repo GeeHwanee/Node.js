@@ -1,3 +1,4 @@
+
 /*
 var figlet = require("figlet");
 figlet("Take Back", function (err, data) {
@@ -37,3 +38,8 @@ app.get('/dog',(req, res) => {
 app.get('/cat',(req, res) => {
     res.send("고양이");
 })
+app.get('/sound',(req, res) => {
+    res.json({'sound':'멍멍'});
+})
+// axios -> express 
+// axios로 보내고 express로 받은 요청에 대한 응답
